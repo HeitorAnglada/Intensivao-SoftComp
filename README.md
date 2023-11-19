@@ -3,11 +3,12 @@ Repósitório para a preparação de ãmbiente para os cursos de python na uepa
 
 # Requisites
 1. Visual Studio Code (https://code.visualstudio.com/)
+  
 2. Extensions do VSCode:
-- Jupyter
+  - Jupyter
 
 # Setting Up the workspace
-1.Run python.exe
+1. Run python.exe
 
 2. Run the commands below to install the libs:
 
