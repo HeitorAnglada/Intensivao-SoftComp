@@ -1,5 +1,5 @@
 # Intensivao-SoftComp
-Repósitório para a preparação de ãmbiente para os cursos de python na uepa
+Repósitório para a preparação de ãmbiente para os cursos de python na UEPA
 
 # Setting Up the workspace
 
