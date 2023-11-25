@@ -19,7 +19,7 @@ Repósitório para a preparação de ãmbiente para os cursos de python na uepa
 
 - Run the commands bellow to install the libs (This repo):
 
-```
+``` shell
 # Data Analysis
 pip install ./libs/matplotlib-3.8.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 pip install libs/pandas-2.1.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -29,7 +29,7 @@ pip install ./libs/statistics-1.0.3.5.tar.gz
 pip install ./libs/numpy-1.26.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl 
 pip install ./libs/plotly-5.18.0-py3-none-any.whl 
 
-# nlp
+# NLP -> no need to execute.
 pip install ./libs/scikit_learn-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl 
 pip install ./libs/keras-2.15.0-py3-none-any.whl
 pip install ./libs/tensorflow-2.15.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl 
