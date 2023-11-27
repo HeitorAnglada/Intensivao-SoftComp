@@ -19,6 +19,7 @@ Repósitório para a preparação de ãmbiente para os cursos de python na UEPA
 
 - Run the commands bellow to install the libs (This repo):
 
+### Linux
 ``` shell
 # Data Analysis
 pip install ./libs/matplotlib-3.8.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -36,7 +37,28 @@ pip install ./libs/tensorflow-2.15.0-cp310-cp310-manylinux_2_17_x86_64.manylinux
 pip install ./libs/graphviz-0.20.1-py3-none-any.whl 
 pip install ./libs/pydot-1.4.2-py2.py3-none-any.whl 
 
+```
+### Windows
+```shell
+# Copy the 'libs' from Google Drive folder to the '.vscode' directory
+copy D:\UEPA C:\Users\User\Desktop
 
+# After installing Python and VSCode, run:
+copy C:\Users\User\Desktop\UEPA\UEPA\libs
+C:\Users\User\.vscode
+
+# Run the 'list-files.py' script
+
+cd C:\Users\User\Desktop\UEPA\UEPA
+
+python list-files.py
+
+# or
+# C:\path\to\python.exe list-files.py
+
+# After running the script, run the following command in the terminal:
+cd .vscode\libs
+pip install -r cd C:\Users\User\Desktop\UEPA\UEPA\requirements.txt
 ```
 
 ## 2. Drive Folder 
